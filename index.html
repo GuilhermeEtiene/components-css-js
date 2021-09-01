@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./index.css" />
+    <title>Carousel</title>
+</head>
+
+<body>
+    <div class="carousel" data-slider>
+        <div data-slide class="carousel__item carousel__item--visible">
+            <img src="./img1.jpg" />
+        </div>
+
+        <div data-slide class="carousel__item">
+            <img src="./img2.jpg" />
+        </div>
+
+        <div data-slide class="carousel__item">
+            <img src="./img3.jpg" />
+        </div>
+
+        <div class="carousel__actions">
+            <button data-prev="Slide anterior">
+                < 
+            </button>
+
+            <button data-next="Próximo slide">
+                >
+            </button>
+        </div>
+    </div>
+    <div style="text-align:center" class="dotters">
+        <span class="dot active" data-dot></span>
+        <span class="dot" data-dot></span>
+        <span class="dot" data-dot></span>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
